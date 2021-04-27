@@ -5,7 +5,7 @@ import http.client
 
 # Datos del Laboratorio
 
-SITIO_WEB = 'example.com'  # Servidor www en dominio lab.ort.edu.uy
+SITIO_WEB = 'example.com'  
 
 ##########################################################################
 # PRIMERO y UNICO PASO: Hablo el protocolo HTTP con el servidor

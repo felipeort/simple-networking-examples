@@ -7,12 +7,12 @@ from telnetlib import Telnet
 
 # Datos del Laboratorio
 
-SITIO_WEB = 'example.com'  # Servidor www en dominio lab.ort.edu.uy
+SITIO_WEB = 'example.com' 
 PUERTO = 80       # Puerto donde escucha el servidor HTTP
 
 
 #################################################################
-# PRIMERO: Consulto al DNS por el registro A de www.lab.ort.eu.uy
+# PRIMERO: Consulto al DNS por el registro A de SITIO_WEB
 #################################################################
 
 IPv4_SERVIDOR = socket.gethostbyname(SITIO_WEB)

@@ -6,7 +6,7 @@ import socket
 
 # Datos del Laboratorio
 
-SITIO_WEB = 'example.com'  # Servidor www en dominio lab.ort.edu.uy
+SITIO_WEB = 'example.com'  
 PUERTO = 80       # Puerto donde escucha el servidor HTTP
 
 #################################################################
